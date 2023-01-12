@@ -1,0 +1,23 @@
+{
+  "name": "poker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopesps/Poker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lopesps/Poker/issues"
+  },
+  "homepage": "https://github.com/lopesps/Poker#readme",
+  "dependencies": {
+    "mongoose": "^6.8.3"
+  }
+}
