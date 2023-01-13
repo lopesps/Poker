@@ -1,12 +1,12 @@
 import express from "express";
-import router from "./src/routes/crmRoutes.js";
+import router from "./src/routes/routes.js";
 import mongoose from "mongoose";
 
 const app = express();
 const PORT = 3000;
 
 //mongoose connection
-mongoose.connect('mongodb://127.0.0.1:27017/CRMdb',{useNewUrlParser:true},(err)=>{
+mongoose.connect('mongodb://127.0.0.1:27017/poker',{useNewUrlParser:true},(err)=>{
     if(!err){
         console.log('mongoDB Connection succeeded')
     }

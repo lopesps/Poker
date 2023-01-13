@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { ContactSchema } from "../models/crmModel.js"
+import { ContactSchema } from "../models/model.js"
 
 const Contact = mongoose.model('Contact', ContactSchema);
 

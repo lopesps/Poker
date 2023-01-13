@@ -1,0 +1,3 @@
+    this.name = name;
+    this.nype = nype;
+    this.number = number;
